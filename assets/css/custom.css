@@ -485,9 +485,7 @@ figure figcaption{
     margin: 2em auto;
     position: relative;
   }
-  #menutop{
-    overflow: hidden;
-  }
+  
   #menutop .nav-link span{
     width: 60%;
     display: inline-block;
@@ -499,6 +497,13 @@ figure figcaption{
   a.btn-sesc{
     display: inline-block;
     margin-bottom: 5px;
+  }
+  #menutop .dropdown-menu{
+    left: -28px !important;
+    width: 97vw !important
+  }
+  #menutop .dropdown-item{
+    white-space: initial !important;
   }
 }
 
