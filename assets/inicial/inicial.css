@@ -1,0 +1,140 @@
+html,body{
+    background-color: #0c0c0c;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../theme/capa/BG.png);    
+    background-size: cover;
+    background-position: center center;   
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+
+.capa{
+    
+    height: 100%;
+    width: 100%;
+}
+.capa .row{
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+}
+.capa h1{
+    font-size: 1.6rem;
+    color: white;
+
+}
+
+.capa nav ul li{
+    list-style: none;
+}
+.btn-inicial{
+    display: block;
+    width: 60rem;
+    height: Calc(60rem * 106/626);
+    max-width: 30vw;
+    max-height: Calc(30vw * 106/626);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.btn-inicial.bt-page1{
+    background-image: url(../theme/capa/capa_bot_1.png);
+}
+.btn-inicial.bt-page1:hover,
+.btn-inicial.bt-page1:focus{
+    background-image: url(../theme/capa/capa_bot_1_hover.png);
+}
+
+.btn-inicial.bt-page2{
+    background-image: url(../theme/capa/capa_bot_2.png);
+}
+.btn-inicial.bt-page2:hover,
+.btn-inicial.bt-page2:focus{
+    background-image: url(../theme/capa/capa_bot_2_hover.png);
+}
+
+.btn-inicial.bt-page3{
+    background-image: url(../theme/capa/capa_bot_3.png);
+}
+.btn-inicial.bt-page3:hover,
+.btn-inicial.bt-page3:focus{
+    background-image: url(../theme/capa/capa_bot_3_hover.png);
+}
+
+.btn-inicial.bt-page4{
+    background-image: url(../theme/capa/capa_bot_4.png);
+}
+.btn-inicial.bt-page4:hover,
+.btn-inicial.bt-page4:focus{
+    background-image: url(../theme/capa/capa_bot_4_hover.png);
+}
+
+.btn-inicial.bt-page5{
+    background-image: url(../theme/capa/capa_bot_5.png);
+}
+.btn-inicial.bt-page5:hover,
+.btn-inicial.bt-page5:focus{
+    background-image: url(../theme/capa/capa_bot_5_hover.png);
+}
+
+.btn-inicial.bt-page6{
+    background-image: url(../theme/capa/capa_bot_6.png);
+}
+.btn-inicial.bt-page6:hover,
+.btn-inicial.bt-page6:focus{
+    background-image: url(../theme/capa/capa_bot_6_hover.png);
+}
+
+.btn-inicial.bt-page7{
+    background-image: url(../theme/capa/capa_bot_7.png);
+}
+.btn-inicial.bt-page7:hover,
+.btn-inicial.bt-page7:focus{
+    background-image: url(../theme/capa/capa_bot_7_hover.png);
+}
+
+
+.bg-barra{
+    padding: 20px;
+    padding-left: 10px;
+    padding-top: 10vh;
+    background-size: cover;
+    box-sizing: border-box;
+    border-right: 25px solid rgba(255, 136, 0, 0.534);
+    background-color: rgba(2, 2, 2, 0.664);
+}
+
+
+@media screen and (max-width:990px){
+    .bg-barra{         
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-top: 10px;       
+    }
+    .btn-inicial{      
+        max-width: 78vw;
+        max-height: Calc(78vw * 106/626);        
+    }
+    .bg-barra ul{
+       
+       margin:0;
+       padding:0;
+    }
+    .capa{
+        background-attachment: fixed;
+    }
+
+    h1.mobile{
+        font-size: 1rem;
+        text-shadow: 0 2px 4px rgba(2, 2, 2, 0.664);
+        background-color: rgba(2, 2, 2, 0.664);
+        padding:10px ;
+    }
+    
+}
