@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+   
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/fa/css/all.min.css">
+    <link rel="stylesheet" href="assets/inicial/inicial.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="anim"></div>
+        <h1>Aguarde enquanto o conteúdo é carregado.</h1>
+    </div>
+    <section class="capa">
+
+        <div class="row d-none elementos-capa">
+
+            <div class="col-lg-7 d-flex align-content-center flex-column justify-content-center">
+                <div class="ps-5 animate__animated animate__fadeInDown">
+                    <img src="assets/theme/capa/tv.png" class="img-fluid" alt="Qualificação profissional: Produtor cultural">
+                </div>
+                <h1 class="mobile d-block d-lg-none text-center animate__animated animate__fadeIn animate__delay-2s">Diversidade cultural: inclusão das pessoas com deficiência, das etnias e das questões raciais (apropriação cultural e aculturamento); diversidade e igualdade de gênero; população LGBTQIA+, entre outros</h1>                    
+                <h1 class="sr-only">Diversidade cultural: inclusão das pessoas com deficiência, das etnias e das questões raciais (apropriação cultural e aculturamento); diversidade e igualdade de gênero; população LGBTQIA+, entre outros</h1>
+            </div>            
+            <div class="col-lg-5">  
+                <div class="col-lg-11 h-100 bg-barra h-100 animate__animated animate__fadeIn animate__delay-1s">                    
+                    <nav class="d-lg-flex align-content-lg-center justify-content-lg-center h-100 ">
+                        <ul class="d-lg-flex flex-column align-content-lg-center justify-content-lg-center h-100">
+                            <li class="animate__animated animate__backInDown animate__delay-2s"><a href="conteudo.html?page=1" class="btn-inicial bt-page1"><span class="sr-only">Relembrando o módulo I</span></a></li>
+                            <li class="animate__animated animate__backInDown animate__delay-2s"><a href="conteudo.html?page=2" class="btn-inicial bt-page2"><span class="sr-only">Diversidade cultural</span></a></li>
+                            <li class="animate__animated animate__backInDown animate__delay-2s"><a href="conteudo.html?page=3" class="btn-inicial bt-page3"><span class="sr-only">Da diversidade cultural à democracia cultural</span></a></li>
+                            <li class="animate__animated animate__backInDown animate__delay-2s"><a href="conteudo.html?page=4" class="btn-inicial bt-page4"><span class="sr-only">Cidadania cultural</span></a></li>
+                            <li class="animate__animated animate__backInDown animate__delay-2s"><a href="conteudo.html?page=5" class="btn-inicial bt-page5"><span class="sr-only">Construção da diversidade/identidade cultural</span></a></li>
+                            <li class="animate__animated animate__backInDown animate__delay-2s"><a href="conteudo.html?page=6" class="btn-inicial bt-page6"><span class="sr-only">Qual é o papel do produtor cultural nesta história?</span></a></li>
+                            <li class="animate__animated animate__backInDown animate__delay-2s"><a href="conteudo.html?page=7" class="btn-inicial bt-page7"><span class="sr-only">Referências</span></a></li>
+                        </ul> 
+                    </nav>
+                </div>              
+               
+            
+            </div>
+        </div>
+    
+           
+    </section>
+
+    <div class="sr-only" aria-hidden="true">
+        <img src="assets/theme/capa/BG.png" alt="">
+        <img src="assets/theme/capa/capa_bot_1.png" alt="">
+        <img src="assets/theme/capa/capa_bot_1_hover.png" alt="">
+        <img src="assets/theme/capa/capa_bot_2.png" alt="">
+        <img src="assets/theme/capa/capa_bot_2_hover.png" alt="">
+        <img src="assets/theme/capa/capa_bot_3.png" alt="">
+        <img src="assets/theme/capa/capa_bot_3_hover.png" alt="">
+        <img src="assets/theme/capa/capa_bot_4.png" alt="">
+        <img src="assets/theme/capa/capa_bot_4_hover.png" alt="">
+        <img src="assets/theme/capa/capa_bot_5.png" alt="">
+        <img src="assets/theme/capa/capa_bot_5_hover.png" alt="">
+        <img src="assets/theme/capa/capa_bot_6.png" alt="">
+        <img src="assets/theme/capa/capa_bot_6_hover.png" alt="">
+        <img src="assets/theme/capa/capa_bot_7.png" alt="">
+        <img src="assets/theme/capa/capa_bot_7_hover.png" alt="">
+    </div>
+
+
+     <!-- Versao atual do handtalk -->
+     <script>
+        var scriptElem=document.createElement("script");
+        scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
+        scriptElem.charset="UTF-8",
+        scriptElem.onload=function(){
+            window.ht = new HT({
+                token:"bf5b7efb148a829a126a0e0c9fd533bf",
+                align:"top",
+                videoEnabled: true,
+                ytEmbedReplace: true,           
+                mobileConfig:{align:"right",
+                                actionsAlign:"top",
+                                customButtonStyle:{
+                                    borderRadius:"6px",
+                                    size:"38px",
+                                    horizontalMargin:"13px",
+                                    bottomMargin:"140px",
+                                    rightMargin:"40px"}
+                                }
+                });        
+            $('.ht-skip').attr("aria-hidden","true")
+        },
+    document.body.appendChild(scriptElem);
+    
+    </script>
+  
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.preloader').fadeOut(800,function(){
+                $('.elementos-capa').removeClass('d-none')
+            })
+        })
+    </script>
+</body>
+</html>
