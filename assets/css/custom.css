@@ -338,14 +338,7 @@ figure figcaption{
   box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
 }
 
-.infografico-mapaBrasil{
-  position: relative;
-  background-image: url(../theme/assets/painel_clicavel.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  min-height: 700px;
-}
+
 
 
 .infografico-mapaBrasil .info-botao{
@@ -355,9 +348,9 @@ figure figcaption{
   background-repeat: no-repeat;
   width: 301px;
   height: Calc(301px * 244/301);
-  max-width: Calc(14em);
-  max-height: Calc(14em * 244/301);
-  position: absolute;
+  max-width: Calc(18em);
+  max-height: Calc(18em * 244/301);
+
 }
 
 .infografico-mapaBrasil .info-botao.bt02{
